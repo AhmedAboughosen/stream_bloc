@@ -4,4 +4,6 @@ abstract class StreamBase<T> {
   void onClose();
 
   ValueStream<T> get listener;
+
+  late T state;
 }
